@@ -17,7 +17,7 @@ public class SequenceFinder {
     }
 
     public static int traFinderRegex(String fileString) {
-        Pattern p = pattern.compile("tra");
+        Pattern p = Pattern.compile("tra");
         Matcher m = p.matcher(fileString);
         int counter = 0;
         while (m.find()) {

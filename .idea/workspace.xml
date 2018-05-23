@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42e06d9b-5112-41a8-b5fa-1b5bc1dcdadf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/threelettersequences/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threelettersequences/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TlsListerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreeLetterSequences/threelettersequences/SequenceFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreeLetterSequences/threelettersequences/SequenceFinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +22,20 @@
           <file leaf-file-name="SequenceFinder.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+                <state relative-caret-position="294">
+                  <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TlsLister.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/TlsLister.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -41,7 +55,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/Main.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="396">
@@ -57,7 +71,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SequenceFinderTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="SequenceFinderTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/SequenceFinderTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
@@ -68,6 +82,18 @@
                     <element signature="e#431#432#0" expanded="true" />
                     <element signature="e#493#494#0" expanded="true" />
                     <element signature="e#549#550#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TlsListerTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/TlsListerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -87,6 +113,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>\</find>
+      <find>start</find>
     </findStrings>
     <replaceStrings>
       <replace>\\</replace>
@@ -104,8 +131,10 @@
         <option value="$PROJECT_DIR$/SampleText.txt" />
         <option value="$PROJECT_DIR$/src/main/java/threelettersequences/FileService.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/threelettersequences/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TlsListerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threelettersequences/TlsLister.java" />
       </list>
     </option>
   </component>
@@ -213,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TlsListerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threelettersequences.Main" />
       <module name="ThreeLetterSequences" />
@@ -228,18 +257,12 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SequenceFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TlsListerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThreeLetterSequences" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.SequenceFinderTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TlsListerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -251,19 +274,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SequenceFinderTest.returns1WhenPassedTra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TlsListerTest.returnCorrectListWhenPassedNonLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThreeLetterSequences" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test.java.SequenceFinderTest" />
-      <option name="METHOD_NAME" value="returns1WhenPassedTra" />
+      <option name="MAIN_CLASS_NAME" value="TlsListerTest" />
+      <option name="METHOD_NAME" value="returnCorrectListWhenPassedNonLetters" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -274,19 +291,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SequenceFinderTest.returns1WhenPassedTratre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TlsListerTest.returnsCorrectListWhenPassedThis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThreeLetterSequences" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.SequenceFinderTest" />
-      <option name="METHOD_NAME" value="returns1WhenPassedTratre" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TlsListerTest" />
+      <option name="METHOD_NAME" value="returnsCorrectListWhenPassedThis" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -297,19 +308,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SequenceFinderTest.returns2WhenPassedTratra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TlsListerTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThreeLetterSequences" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.SequenceFinderTest" />
-      <option name="METHOD_NAME" value="returns2WhenPassedTratra" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TlsListerTest" />
+      <option name="METHOD_NAME" value="someTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -360,18 +365,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.SequenceFinderTest" />
-      <item itemvalue="JUnit.SequenceFinderTest.returns2WhenPassedTratra" />
-      <item itemvalue="JUnit.SequenceFinderTest.returns1WhenPassedTratre" />
-      <item itemvalue="JUnit.SequenceFinderTest.returns1WhenPassedTra" />
+      <item itemvalue="JUnit.TlsListerTest" />
+      <item itemvalue="JUnit.TlsListerTest.returnsCorrectListWhenPassedThis" />
+      <item itemvalue="JUnit.TlsListerTest.returnCorrectListWhenPassedNonLetters" />
+      <item itemvalue="JUnit.TlsListerTest.someTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TlsListerTest" />
+        <item itemvalue="JUnit.TlsListerTest.someTest" />
+        <item itemvalue="JUnit.TlsListerTest.returnsCorrectListWhenPassedThis" />
+        <item itemvalue="JUnit.TlsListerTest.returnCorrectListWhenPassedNonLetters" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SequenceFinderTest" />
-        <item itemvalue="JUnit.SequenceFinderTest.returns1WhenPassedTra" />
-        <item itemvalue="JUnit.SequenceFinderTest.returns1WhenPassedTratre" />
-        <item itemvalue="JUnit.SequenceFinderTest.returns2WhenPassedTratra" />
       </list>
     </recent_temporary>
   </component>
@@ -385,44 +390,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527072053461</updated>
-      <workItem from="1527072058435" duration="10060000" />
+      <workItem from="1527072058435" duration="15141000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 12h 36m 49s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_returnsCorrectListWhenPassedThis - 2018.05.23 at 16h 01m 13s.xml">
+      <configuration name="TlsListerTest.returnsCorrectListWhenPassedThis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 03m 41s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_returnCorrectListWhenPassedNonLetters - 2018.05.23 at 16h 01m 17s.xml">
+      <configuration name="TlsListerTest.returnCorrectListWhenPassedNonLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 36m 53s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest - 2018.05.23 at 16h 05m 56s.xml">
+      <configuration name="TlsListerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest_returns1WhenPassedTra - 2018.05.23 at 14h 40m 41s.xml">
-      <configuration name="SequenceFinderTest.returns1WhenPassedTra" configurationId="JUnit" />
+    <history-entry file="TlsListerTest - 2018.05.23 at 16h 06m 02s.xml">
+      <configuration name="TlsListerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 41m 12s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_returnCorrectListWhenPassedNonLetters - 2018.05.23 at 16h 06m 42s.xml">
+      <configuration name="TlsListerTest.returnCorrectListWhenPassedNonLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 41m 36s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest - 2018.05.23 at 16h 11m 44s.xml">
+      <configuration name="TlsListerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 42m 03s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest - 2018.05.23 at 16h 15m 02s.xml">
+      <configuration name="TlsListerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 42m 17s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_returnsCorrectListWhenPassedThis - 2018.05.23 at 16h 15m 32s.xml">
+      <configuration name="TlsListerTest.returnsCorrectListWhenPassedThis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 42m 32s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_someTest - 2018.05.23 at 16h 20m 44s.xml">
+      <configuration name="TlsListerTest.someTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SequenceFinderTest - 2018.05.23 at 14h 47m 24s.xml">
-      <configuration name="SequenceFinderTest" configurationId="JUnit" />
+    <history-entry file="TlsListerTest_someTest - 2018.05.23 at 16h 20m 56s.xml">
+      <configuration name="TlsListerTest.someTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10060000" />
+    <option name="totallyTimeSpent" value="15141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -467,7 +472,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -509,6 +514,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SequenceFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -525,28 +550,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/SequenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/FileService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TlsListerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="540">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threelettersequences/TlsLister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
