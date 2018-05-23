@@ -27,7 +27,7 @@ public class TlsLister {
         Matcher m = p.matcher(fileString);
         int idx = 0;
         while(m.find(idx)) {
-            String lastMatch = m.group();
+            String lastMatch = m.group().toLowerCase();
             if(output.get(lastMatch) == null){
                 output.put(lastMatch, 1);
             } else {

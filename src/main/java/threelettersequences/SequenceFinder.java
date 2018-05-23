@@ -18,7 +18,7 @@ public class SequenceFinder {
 
     public static int traFinderRegex(String fileString) {
         Pattern p = Pattern.compile("tra");
-        Matcher m = p.matcher(fileString);
+        Matcher m = p.matcher(fileString.toLowerCase());
         int counter = 0;
         while (m.find()) {
             counter++;
@@ -27,7 +27,7 @@ public class SequenceFinder {
     }
 
     private static boolean isTra(String fileString, int i) {
-        String threeChars = fileString.substring(i, i + 3);
+        String threeChars = fileString.substring(i, i + 3).toLowerCase();
         return (threeChars.equals("tra"));
     }
 

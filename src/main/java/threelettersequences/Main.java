@@ -5,6 +5,7 @@ import threelettersequences.FileService;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLOutput;
 
 import static threelettersequences.SequenceFinder.sequenceFinder;
 import static threelettersequences.SequenceFinder.traFinderRegex;
@@ -34,6 +35,8 @@ public class Main {
 
         System.out.println("Map of TLS's");
         System.out.println(buildCountMap(fileString));
+
+        System.out.println("number of tras " + buildCountMap(fileString).get("tra"));
 
     }
 
