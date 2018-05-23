@@ -1,5 +1,8 @@
 package threelettersequences;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class SequenceFinder {
 
     public static int sequenceFinder(String fileString) {
@@ -10,7 +13,16 @@ public class SequenceFinder {
                 counter++;
             }
         }
+        return counter;
+    }
 
+    public static int traFinderRegex(String fileString) {
+        Pattern p = pattern.compile("tra");
+        Matcher m = p.matcher(fileString);
+        int counter = 0;
+        while (m.find()) {
+            counter++;
+        }
         return counter;
     }
 
