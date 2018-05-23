@@ -8,6 +8,7 @@ import java.nio.file.Paths;
 
 import static threelettersequences.SequenceFinder.sequenceFinder;
 import static threelettersequences.SequenceFinder.traFinderRegex;
+import static threelettersequences.TlsLister.buildCountMap;
 import static threelettersequences.TlsLister.buildList;
 
 public class Main {
@@ -30,6 +31,9 @@ public class Main {
 
         System.out.println("List of TLS's");
         System.out.println(buildList(fileString));
+
+        System.out.println("Map of TLS's");
+        System.out.println(buildCountMap(fileString));
 
     }
 
