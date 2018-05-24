@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLOutput;
+import java.util.Map;
 
 import static threelettersequences.SequenceFinder.sequenceFinder;
 import static threelettersequences.SequenceFinder.traFinderRegex;
@@ -34,9 +35,14 @@ public class Main {
         System.out.println(buildList(fileString));
 
         System.out.println("Map of TLS's");
-        System.out.println(buildCountMap(fileString));
+        Map<String, Integer> countMap = buildCountMap(fileString);
+        System.out.println(countMap);
 
-        System.out.println("number of tras " + buildCountMap(fileString).get("tra"));
+        System.out.println("number of tras " + countMap.get("tra"));
+
+        System.out.println("TLS which appear 63 times are:");
+        TlsListAnalyser an = new TlsListAnalyser(countMap);
+        System.out.println(an.findTlsByCount(63));
 
     }
 
