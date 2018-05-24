@@ -1,12 +1,10 @@
 package threelettersequences;
 
-import threelettersequences.FileService;
-
 import java.io.IOException;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Map;
+import java.util.Scanner;
 
 import static threelettersequences.SequenceFinder.sequenceFinder;
 import static threelettersequences.SequenceFinder.traFinderRegex;
@@ -43,6 +41,14 @@ public class Main {
         System.out.println("TLS which appear 63 times are:");
         TlsListAnalyser an = new TlsListAnalyser(countMap);
         System.out.println(an.findTlsByCount(63));
+
+        System.out.println("ten most common TLS:");
+        System.out.println(Arrays.toString(an.getTenMostCommon()));
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Find Tls with a given frequency. What frequency would you like to try?");
+        int freq = scanner.nextInt();
+        System.out.println(an.findTlsByCount(freq));
 
     }
 

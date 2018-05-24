@@ -11,7 +11,7 @@ public class TlsLister {
 
     public static List<String> buildList(String fileString) {
         List<String> output = new ArrayList<>();
-        Pattern p = Pattern.compile("[a-zA-z]{3}");
+        Pattern p = Pattern.compile("[a-zA-Z]{3}");
         Matcher m = p.matcher(fileString);
         int idx = 0;
         while(m.find(idx)) {
@@ -23,7 +23,7 @@ public class TlsLister {
 
     public static Map<String, Integer> buildCountMap(String fileString) {
         Map<String, Integer> output = new HashMap<>();
-        Pattern p = Pattern.compile("[a-zA-z]{3}");
+        Pattern p = Pattern.compile("[a-zA-Z]{3}");
         Matcher m = p.matcher(fileString);
         int idx = 0;
         while(m.find(idx)) {
